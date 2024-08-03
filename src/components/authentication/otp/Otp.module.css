@@ -1,0 +1,137 @@
+input.inputOtp{
+    height: 38px;
+    width: 66px !important;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0.3em;
+    font-size: 18px;
+    border: none;
+    outline: none;
+   }
+  .login{
+    font-family: "Poppins";
+  } 
+  .formGroup label{
+    font-family: "Poppins";  
+  }
+   .input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    padding-inline-start: 15px;
+   }
+   .error{
+    color: red;
+   }
+   .btn{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: "Poppins";  
+}
+
+.loginBorder{
+    margin-top: -40px;
+    margin-bottom: -20px;
+}
+.resend{
+    float: right;
+    margin-top: -15px;
+    font-family: "Poppins";  
+}
+.clear{
+    margin-top: -15px;
+    margin-left: 5px;
+    margin-right: -12px;
+    font-family: "Poppins";  
+}
+.timerDiv{
+    color: red;
+    margin-left: 106px;
+    margin-bottom: -22px;
+}
+@media (max-width:1029.7px){
+    .loginBorder{
+        padding: 10px;
+    }
+}
+@media (max-width:900px){
+    .loginBorder{
+        padding-top: 38px;
+    }
+}
+@media (max-width:767.9px){
+    input.inputOtp{
+        height: 35px;
+        width: 55px !important;
+    
+    }
+    .input{
+        width: 260px;
+      }
+      .clear{
+        margin-left: 30px;
+    }
+    .resend{
+        margin-right: 20px;
+    }
+    .btn{
+        margin-left: 65px;
+        width: 150px;
+    }
+}
+@media (max-width:575px){
+    .clear{
+        margin-left: 30px;
+    }
+    .resend{
+        margin-right: 30px;
+    }
+    .btn{
+        margin-left: 65px;
+        width: 150px;
+    }
+    .timerDiv{
+        font-size: 14px;
+    }
+    .loginBorder{
+      /* padding-top: 30px;
+      padding-bottom: 40px; */
+      height: 45vh;
+    }
+}
+/* @media (max-width:380px){
+    .input{
+      width: 220px;
+    }
+    input.inputOtp{
+        height: 35px;
+        width: 45px !important;
+    
+    }
+} */
+@media (max-width:360px){
+    .loginBorder{
+       padding: 20px 0px;
+       margin-bottom: -50px;
+    }
+}
+
+/* @media (max-width:280px){
+    input.inputOtp{
+        height: 35px;
+        width: 32px !important;
+    }
+    .input{
+        width: 170px;
+      }
+      .loginBorder{
+        padding: 30px 0px;
+        
+     }
+} */

@@ -1,0 +1,159 @@
+.mainDiv{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    height: 60vh;
+    font-family: Axiforma;
+    overflow-y: scroll;}
+    .mainDiv::-webkit-scrollbar{
+        display: none;
+    }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.paper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 10px;
+    border: 2px solid #BEBEBE;
+    margin-top: 10px;
+    padding: 0px 15px;
+}
+.stylist div img{
+    height: 80px;
+    width: 85px; 
+    border-radius: 6px; 
+}
+.stylist{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutStylist p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 23px;
+    line-height: 17px;
+    font-family: Axiforma;
+}
+
+.aboutStylist p .spanOne{
+    font-size: 10px;
+    font-weight: bold;
+    color: #6E6E6E;
+    font-family: Axiforma;
+}
+
+.aboutStylist p .spanTwo{
+    font-size: 10px;
+    color: #6E6E6E;
+}
+
+.dots{
+    margin-bottom: 45px;
+    color: #909090;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+@media (max-width:1313px){
+    .content{
+        gap: 7px;
+    }
+}
+@media (max-width:1262px){
+    .content{
+        gap: 2px;
+    }
+}
+.secDiv h4{
+    font-weight: 600;
+
+}
+/* @media (max-width:1360px){
+    .stylist div img{
+        height: auto;
+        width: 85px;
+    }
+} */
+
+@media (max-width:1262px){
+    .dots{
+        margin-bottom: 67px;
+        margin-left: -25px;
+    }
+
+    
+.aboutStylist p .spanTwo{
+    font-size: 8px;
+}
+}
+
+@media(max-width:1199px){
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .paper{
+        width: 45%;
+    }
+}
+
+
+@media (max-width:1154px){
+    .paper{
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width:882px){
+    .stylist div img{
+        width: 71px;
+    }
+
+    .aboutStylist p{
+        line-height: 13px;
+    }
+}  
+
+@media(max-width:662px){
+    .content{
+        flex-direction: column;
+    }
+
+    .paper{
+        width: 92%;
+    }
+}
+
+@media(max-width:435px){
+    .stylist div img{
+        height: auto;
+        width: 52px;
+    }
+
+    .aboutStylist p{
+        font-size: 12px;
+    }
+
+    .aboutStylist p .spanOne{
+        font-size: 8px;
+    }
+
+    .aboutStylist p .spanTwo{
+        font-size: 7px;
+    }
+}

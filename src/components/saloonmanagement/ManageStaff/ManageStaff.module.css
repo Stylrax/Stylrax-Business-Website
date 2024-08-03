@@ -1,0 +1,423 @@
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    
+}
+.crossIcon{
+    margin-left: 300px !important;
+    margin-top: -20px;
+    cursor: pointer;
+}
+@media (max-width:575px) {
+    .crossIcon{
+       margin-right: 98px !important;
+    }
+}
+
+.paper{
+    height: auto;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #909090;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.text p{
+    text-align: center;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.text p .spanOne{
+    color: #BEBEBE;
+    font-size: 12px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.text p .spanThree button{
+    border-style: none;
+    text-decoration: underline;
+    font-size: 13px;
+    
+}
+
+.iconDiv .icon{
+    font-size: 80px;
+}
+
+.iconDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+
+.iconDiv p{
+    font-weight: bold;
+}
+
+.iconDiv button{
+    background-color: #BEBEBE;
+}
+
+.spanThree button{
+    background-color: #fff;
+}
+
+.staffbtn{
+    border-style: none;
+}
+
+/* popup Styling */
+
+.popupFormDiv{
+    text-align: center;
+    border: 2px solid #BEBEBE;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 358px;
+    height: auto;
+    outline: none;
+    border: none;
+}
+.popupFormImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    gap: 5px;   
+}
+
+.popupFormImgDiv span{
+    font-weight: bold;
+}
+
+.popupFormImgDiv img{
+    border-radius: 5px;
+}
+
+.popupForm input{
+    border: 2px solid  #A8A8A8;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    padding-right: 66px;
+    padding-left: 10px;
+    text-decoration-color: #858585;
+    outline: none;
+}
+.staffImage {
+    margin-left: -105px !important;
+    padding-top: 5px;
+    font-weight: 400 !important;
+}
+.profile_Image{
+    margin-left: -37px;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+.popupFormButton{
+    padding: 20px 0px;
+}
+.adharError{
+    color: red;
+    margin-right: -94px;
+    font-size: 15px;
+}
+.popupFormButton .buttonOne{
+    background-color: #000;
+    color: #fff;
+    padding: 7px 35px;
+    border-radius: 15px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.popupFormButton .buttonTwo{
+    background-color: #000;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 15px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+
+.formError{
+    color: red;
+    font-size: 15px;
+    text-align: start;
+    padding-left: 50px;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+.formError_Profile{
+    margin-left: 63px;
+    padding-bottom: 4px;
+    font-size: 15px;
+    color: red;
+}
+.addTime{
+    margin-top: -130px;
+}
+.closeIcon{
+    margin-left: 300px;
+  }
+.gender {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    padding-right: 90px;
+    padding-left: 10px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #BEBEBE;
+    color: #A8A8A8;
+}
+.type_gender{
+    border: 2px solid #BEBEBE;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    padding-right: 192px;
+    padding-left: 10px;
+    background-color: transparent;
+    color:grey;
+    text-decoration-color: #BEBEBE;
+    outline: none;}
+.appointmentDiv{
+    background-color: #fff;
+    border: 2px solid #BEBEBE;
+    border-radius: 8px;
+    height: auto;
+    width: 823px;
+    padding: 20px 50px;
+}
+
+
+.appointmentData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appointmentData span{
+    font-weight: 600;
+}
+
+.calendar{
+    display: flex;
+    gap: 11px;
+}
+
+.calendar .week{
+    line-height: 15px;
+}
+
+.calendar .text1{
+    display: block;
+    color: #909090;
+    font-size: 13px;
+}
+
+.calendar .text2{
+    display: block;
+    font-size: 10px;
+}
+
+.calendar .calIcon{
+    font-size: 30px;
+}
+.popupMainData{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.popup{
+    display: flex;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.popup::-webkit-scrollbar{
+    display: none;
+}
+
+.paperTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 330px;
+    border: 2px solid #BEBEBE;
+    padding: 5px 9px;
+    margin-top:8px;
+    margin-right: 20px;
+    
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+}
+
+.content{
+    line-height: 18px;
+    text-align: start;
+    padding-top: 5px;
+}
+
+.content span{
+  display: block;
+}
+
+.content .title{
+    font-weight: 600;
+}
+
+.content .same{
+    font-size: 12px;
+}
+
+.time{
+    display: flex;
+    gap: 8px;
+}
+
+.time .tspan{
+    font-size: 11px;
+}
+.phoneBox{
+margin-left: 55px;
+padding-top: 10px;
+border-bottom: 2px solid #BEBEBE;
+width: 250px;}
+
+.sweet-alert-container {
+    z-index: 9999; /* Adjust the z-index value as necessary */
+  }
+.popupForm .dob{
+    border: 2px solid #BEBEBE;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    padding-right: 120px;
+    padding-left: 10px;
+    color:grey;
+    text-decoration-color: #BEBEBE;
+    outline: none;   
+    background-color: transparent;
+}  
+.popupFormImgDiv .staffImg  {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.popupFormImgDiv .editProfile{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #00000099;
+    border-radius: 100%;
+    color: grey;
+    margin-left: -23px;
+    margin-bottom: -41px;
+}
+.adhar_images img{
+    padding-top: 10px;
+    height: 80px;
+    width: 80px;
+}
+@media(max-width:769px){
+    .mainDiv{
+        padding: 20px 0px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:575px){
+    .text p{
+        line-height: 13px;
+    }
+    .type_gender{
+        padding-right: 125px;
+    }
+    .paper{
+        width: 134px;
+    }
+    .popupForm input{
+        background-color: transparent;
+    }
+    .phoneBox{
+        margin-left: 70px;
+        padding-top: 10px;
+        border-bottom: 2px solid #BEBEBE;
+        width: 60%;  
+        box-shadow: none;
+        overflow: hidden;
+    }
+    .popupFormDiv{
+        height: 60vh;
+        overflow-y: scroll;
+    }
+    .popupFormDiv::-webkit-scrollbar{
+        display: none;
+    }
+    .formError{
+        padding-left: 70px;
+    }
+    .staffImage{
+        margin-right: -40px;
+    }
+    .popupForm .dob{
+        padding-right: 0;
+        width: 62%;
+        background-color: transparent;
+
+    }
+    .popupForm input{
+        padding-right: 0px;
+        width: 60%;
+    }
+    .colDiv{
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .gender{
+        padding-right: 0px;
+        width: 60%;
+    }
+}
+/* @media(max-width:408px){
+    .popupFormDiv{
+    width: 269px;
+    height: auto;
+    }
+} */

@@ -1,0 +1,28 @@
+
+ .documents{
+    padding-top: 15px;
+    height: 170px;
+    width: 170px;
+    /* border-radius: 5px; */
+}
+.lab{
+    font-weight: 600;
+}
+@media(max-width:1440px){
+    .documents{
+        height: 140px;
+        width: 140px;
+    }
+}
+@media(max-width:1200px){
+    .documents{
+        height: 120px;
+        width: 120px;
+    }
+}
+@media(max-width:577px){
+    .documents{
+        height: 100px;
+        width: 100px;
+    }
+}

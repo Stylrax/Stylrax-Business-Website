@@ -1,0 +1,70 @@
+.mainDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 30px 60px;
+  border-radius: 8px;
+  font-family: Axiforma;
+}
+
+.text {
+  color: #bebebe;
+  font-size: 20px;
+  font-family: "Axiforma";
+}
+
+.text .icon {
+  padding-bottom: 2px;
+}
+
+.lab {
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 10px;
+  font-family: Axiforma;
+}
+
+.inputs {
+  padding: 5px 70px 5px 15px;
+  border: 2px solid #a8a8a8;
+  border-radius: 5px;
+  outline: none;
+  font-size: 19px;
+  color: #a8a8a8;
+  font-family: "Axiforma";
+}
+.documents {
+  padding-top: 15px;
+  height: 170px;
+  width: 170px;
+}
+.ifscCode {
+  padding: 5px 300px 5px 8px;
+  border: 2px solid #bebebe;
+  border-radius: 5px;
+  font-size: 19px;
+  outline: none;
+  color: #a8a8a8;
+}
+@media (max-width: 992px) {
+  .ifscCode {
+    padding: 5px 200px 5px 8px;
+  }
+  @media (max-width: 575px) {
+    .inputs {
+      padding: 5px 10px 5px 8px;
+    }
+    .ifscCode {
+      padding: 5px 10px 5px 8px;
+    }
+    .mainDiv {
+      justify-content: center;
+    }
+    .documents{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 30px;
+    }
+  }
+}

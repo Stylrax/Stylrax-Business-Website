@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-box{
+  width: 100% !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.disable{
+  cursor: not-allowed;
+}
+
+
+/* Page not found style*/
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found-content {
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.not-found p {
+  margin-bottom: 1.5rem;
+  color: #777;
+}
+
+.phone-container .flag-dropdown, .phone-container .flag-dropdown > div{
+  border-radius: 20px !important;
+}
+
+.mainbusiness{
+  /* height: 100vh; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.pageContent{
+/* width: 100%; */
+height: 100vh;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+/* //////////////////////////  Global Styles  ////////////////////////// */
+
